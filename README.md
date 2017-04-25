@@ -15,6 +15,11 @@ So I decided to have a look.
 1. If the service dies, you better hope your BL is unlocked
 2. It's actually implemented rather well
 
+### MiFlashUnlock Changes
+The recent (2.x) versions of MiFlashUnlock have switched to a new version of the API, which seems to report more information back to Xiaomi when an unlock occurs. This information isn't strictly identifiable, but does include a unique PC ID.
+
+2.x also includes obfuscation, using VMProtect on the main executable. Both versions still give an unspecified error when internet access is lost after login to the application, showing Xiaomi's desire to keep details limited.
+
 ### The unlock process
 Fastboot provides a number of properties for reasons such as this. One of these, with the key ```token```, is a 24 character string, ending in ```LAAAA```.
 
