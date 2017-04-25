@@ -37,3 +37,8 @@ This is a pretty nice way to do things. No worry of hard bricking the device ala
 
 ### The Bad
 Unless server-side code is released, unlocking will require the service to be maintained.
+
+### Way forward
+
+1. Possibly research token generation, replacing with static token.
+2. Following this, build tool for extracting signed data from memory limitless unlocking
